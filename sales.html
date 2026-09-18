@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales | Sales, Consignments &amp; Rentals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img src="assets/logo.png" alt="APP Sales, Consignments, Rentals" class="brand-logo" /></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="sales.html">Sales</a></li>
+        <li><a href="consignments.html">Consignments</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Sales by Brand</h2>
+    <p class="lead">
+      Placeholder company tabs &mdash; replace "Brand One / Two / Three" below with the
+      names of the companies you actually represent, and swap the tiles for real product photos.
+    </p>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="brand-one">Brand One</button>
+      <button class="tab-btn" data-tab="brand-two">Brand Two</button>
+      <button class="tab-btn" data-tab="brand-three">Brand Three</button>
+    </div>
+
+    <div id="brand-one" class="tab-panel active">
+      <div class="item-grid">
+        <div class="item-card">Brand One &mdash; Item 1</div>
+        <div class="item-card">Brand One &mdash; Item 2</div>
+        <div class="item-card">Brand One &mdash; Item 3</div>
+      </div>
+    </div>
+
+    <div id="brand-two" class="tab-panel">
+      <div class="item-grid">
+        <div class="item-card">Brand Two &mdash; Item 1</div>
+        <div class="item-card">Brand Two &mdash; Item 2</div>
+        <div class="item-card">Brand Two &mdash; Item 3</div>
+      </div>
+    </div>
+
+    <div id="brand-three" class="tab-panel">
+      <div class="item-grid">
+        <div class="item-card">Brand Three &mdash; Item 1</div>
+        <div class="item-card">Brand Three &mdash; Item 2</div>
+        <div class="item-card">Brand Three &mdash; Item 3</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    &copy; <span id="year"></span> APP Sales, Consignments, Rentals &middot; <a href="https://app-enterprises.com">App Enterprises</a>
+  </footer>
+  <script src="script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

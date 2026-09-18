@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Sales, Consignments &amp; Rentals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img src="assets/logo.png" alt="APP Sales, Consignments, Rentals" class="brand-logo" /></a>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="consignments.html">Consignments</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Buy. Consign. Rent.</h1>
+    <p>Buildings &middot; Trailers &middot; Boats &middot; Golf Carts &mdash; new sales, consigned finds, and flexible rentals.</p>
+    <a class="btn" href="sales.html">Shop Sales</a>
+    <a class="btn" href="rentals.html">Browse Rentals</a>
+  </section>
+
+  <section class="section">
+    <h2>What We Offer</h2>
+    <p class="lead">Placeholder overview &mdash; update with your real inventory and terms.</p>
+    <div class="cards">
+      <a class="card" href="sales.html">
+        <div class="icon">🛍️</div>
+        <h3>Sales</h3>
+        <p>New inventory from the brands we represent, organized by company.</p>
+      </a>
+      <a class="card" href="consignments.html">
+        <div class="icon">📦</div>
+        <h3>Consignments</h3>
+        <p>Quality pre-owned items available on consignment.</p>
+      </a>
+      <a class="card" href="rentals.html">
+        <div class="icon">🔑</div>
+        <h3>Rentals</h3>
+        <p>Short and long-term rental options for your needs.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    &copy; <span id="year"></span> APP Sales, Consignments, Rentals &middot; <a href="https://app-enterprises.com">App Enterprises</a>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

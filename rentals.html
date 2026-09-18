@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rentals | Sales, Consignments &amp; Rentals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img src="assets/logo.png" alt="APP Sales, Consignments, Rentals" class="brand-logo" /></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="consignments.html">Consignments</a></li>
+        <li><a class="active" href="rentals.html">Rentals</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Rentals</h2>
+    <p class="lead">Placeholder rental catalog &mdash; replace with real items, rates, and availability.</p>
+    <div class="item-grid">
+      <div class="item-card">Buildings &mdash; $__/day</div>
+      <div class="item-card">Trailers &mdash; $__/day</div>
+      <div class="item-card">Boats &mdash; $__/day</div>
+      <div class="item-card">Golf Carts &mdash; $__/day</div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    &copy; <span id="year"></span> APP Sales, Consignments, Rentals &middot; <a href="https://app-enterprises.com">App Enterprises</a>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
